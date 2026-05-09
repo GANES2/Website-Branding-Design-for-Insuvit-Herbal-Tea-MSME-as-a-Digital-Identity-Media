@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Insuvit Teh Herbal - Teh Rempah Alami</title>
+  <meta name="description"
+    content="Profil UMKM Insuvit Teh Herbal. Minuman teh herbal berbahan tumbuhan alami yang praktis diseduh.">
+  <meta property="og:title" content="Insuvit Teh Herbal - Teh Rempah Alami">
+  <meta property="og:description"
+    content="Website profil UMKM Insuvit Teh Herbal. Praktis diseduh, mendukung gaya hidup sehat Anda.">
+  <meta property="og:type" content="website">
+
+  <!-- SEO Schema Markup untuk Identitas Bisnis Lokal (Sangat baik untuk jurnal "Digital Identity") -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Insuvit Teh Herbal",
+  "description": "UMKM minuman teh herbal berbahan tumbuhan alami",
+  "url": "https://insuvit.com", 
+  "logo": "https://insuvit.com/images/hero-tea.png",
+  "sameAs": [
+    "https://shopee.co.id/insuvit_official",
+    "https://instagram.com/insuvit_official"
+  ]
+}
+</script>
+  <!-- STRATEGI TRACKING & RETARGETING (Berdasarkan Wawancara Owner) -->
+  <!-- Placeholder Meta Pixel / Shopee Pixel / TikTok Pixel - tidak diaktifkan pada prototype akademik -->
+  <!-- Catatan: Fitur tracking dapat dikembangkan pada tahap berikutnya. -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#beranda" class="nav-logo">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+          stroke-linejoin="round">
+          <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"></path>
+          <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"></path>
+        </svg>
+        Insuvit
+      </a>
+      <div class="nav-menu">
+        <a href="#beranda">Beranda</a>
+        <a href="#tentang">Tentang</a>
+        <a href="#masalah">Masalah Konsumen</a>
+        <a href="#produk">Produk</a>
+        <a href="#keunggulan">Keunggulan</a>
+        <a href="#testimoni">Testimoni</a>
+        <a href="#faq">FAQ</a>
+        <a href="#kontak">Kontak</a>
+        <div class="nav-cta"><a href="https://shopee.co.id/insuvit_official" target="_blank"
+            class="btn btn-primary"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round"
+              style="width:16px; height:16px; margin-right:6px; vertical-align:middle;">
+              <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <path d="M16 10a4 4 0 0 1-8 0"></path>
+            </svg>Beli di Shopee</a></div>
+      </div>
+      <button class="hamburger" id="hamburger-btn" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+  <div class="mobile-overlay" id="mobile-overlay"></div>
+
+  <section class="hero section-padding" id="beranda">
+    <div class="container">
+      <div class="hero-content fade-in">
+        <div class="hero-badges">
+          <span class="hero-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+              <polyline points="22 4 12 14.01 9 11.01"></polyline>
+            </svg> UMKM Herbal</span>
+          <span class="hero-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 2v20"></path>
+              <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+            </svg> Praktis Diseduh</span>
+          <span class="hero-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path
+                d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z">
+              </path>
+            </svg> Tersedia di Marketplace</span>
+          <span class="hero-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="12" y1="16" x2="12" y2="12"></line>
+              <line x1="12" y1="8" x2="12.01" y2="8"></line>
+            </svg> Informasi Produk Terpusat</span>
+        </div>
+        <h1>Insuvit Teh Herbal</h1>
+        <p class="hero-subtitle">Mendukung Gaya Hidup Sehat Secara Alami</p>
+        <p class="hero-desc">Minuman teh herbal berbahan tumbuhan alami yang praktis diseduh. Sangat cocok untuk
+          konsumen yang peduli pada kesehatan dan ingin memelihara kebugaran tubuh setiap hari.</p>
+        <div class="hero-buttons">
+          <a href="https://shopee.co.id/insuvit_official" target="_blank" class="btn btn-shopee">Beli di Shopee</a>
+          <a href="#produk" class="btn btn-outline">Lihat Katalog</a>
+          <a href="#tentang" class="btn btn-outline">Kenali Insuvit</a>
+        </div>
+      </div>
+      <div class="hero-image fade-in">
+        <img src="images/hero-tea.png" alt="Insuvit Teh Herbal">
+      </div>
+    </div>
+    <div class="hero-wave">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path
+          d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+          class="shape-fill"></path>
+      </svg>
+    </div>
+  </section>
+
+  <!-- Trust Badges Strip -->
+  <div class="trust-strip">
+    <div class="container">
+      <div class="trust-items fade-in">
+        <div class="trust-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path
+              d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z">
+            </path>
+          </svg>
+          <span>Tersedia di Shopee</span>
+        </div>
+        <div class="trust-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 2v20"></path>
+            <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+          </svg>
+          <span>UMKM Herbal</span>
+        </div>
+        <div class="trust-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="10"></circle>
+            <line x1="12" y1="16" x2="12" y2="12"></line>
+            <line x1="12" y1="8" x2="12.01" y2="8"></line>
+          </svg>
+          <span>Informasi Terpusat</span>
+        </div>
+        <div class="trust-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+          </svg>
+          <span>Testimoni Pembeli</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="problems section-padding" id="masalah">
+    <div class="container">
+      <div class="section-header fade-in">
+        <h2>Masalah Konsumen yang Ingin Dijawab Insuvit</h2>
+        <p>Berbagai kendala yang sering dialami oleh konsumen produk herbal</p>
+      </div>
+      <div class="problems-grid">
+        <div class="problem-card fade-in">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="12" y1="16" x2="12" y2="12"></line>
+              <line x1="12" y1="8" x2="12.01" y2="8"></line>
+            </svg></div>
+          <h3>Informasi Tidak Terpusat</h3>
+          <div class="problem-flow">
+            <p><strong style="color: var(--orange-shopee);">Masalah:</strong> Sulit menemukan informasi resmi produk di
+              internet.</p>
+            <p><strong style="color: var(--brown-soft);">Dampak:</strong> Konsumen merasa ragu dan kurang percaya
+              terhadap keaslian brand.</p>
+            <p><strong style="color: var(--green-main);">Solusi Insuvit:</strong> Website ini menjadi identitas digital
+              dan pusat informasi resmi UMKM Insuvit.</p>
+          </div>
+        </div>
+        <div class="problem-card fade-in">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 2v20"></path>
+              <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+            </svg></div>
+          <h3>Kebutuhan Kepraktisan</h3>
+          <div class="problem-flow">
+            <p><strong style="color: var(--orange-shopee);">Masalah:</strong> Banyak orang enggan mengonsumsi herbal
+              karena repot merebusnya.</p>
+            <p><strong style="color: var(--brown-soft);">Dampak:</strong> Gaya hidup sehat dengan herbal menjadi sulit
+              dipertahankan secara rutin.</p>
+            <p><strong style="color: var(--green-main);">Solusi Insuvit:</strong> Menghadirkan teh herbal celup yang
+              sangat praktis diseduh kapan saja.</p>
+          </div>
+        </div>
+        <div class="problem-card fade-in">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path
+                d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z">
+              </path>
+            </svg></div>
+          <h3>Keamanan Transaksi</h3>
+          <div class="problem-flow">
+            <p><strong style="color: var(--orange-shopee);">Masalah:</strong> Maraknya toko online penipu atau produk
+              palsu.</p>
+            <p><strong style="color: var(--brown-soft);">Dampak:</strong> Konsumen takut tertipu jika harus checkout
+              langsung di sembarang website.</p>
+            <p><strong style="color: var(--green-main);">Solusi Insuvit:</strong> Pembelian produk 100% diarahkan ke
+              toko resmi di marketplace terpercaya (Shopee).</p>
+          </div>
+        </div>
+        <div class="problem-card fade-in">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+            </svg></div>
+          <h3>Keraguan Legalitas</h3>
+          <div class="problem-flow">
+            <p><strong style="color: var(--orange-shopee);">Masalah:</strong> Banyak herbal beredar tanpa kejelasan
+              keamanan dan izin edar.</p>
+            <p><strong style="color: var(--brown-soft);">Dampak:</strong> Risiko efek samping dan keraguan atas
+              kelayakan konsumsi jangka panjang.</p>
+            <p><strong style="color: var(--green-main);">Solusi Insuvit:</strong> Transparansi informasi mengenai
+              legalitas dan bahan alami secara terbuka di website.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="purpose section-padding" style="background-color: var(--green-light);">
+    <div class="container">
+      <div class="section-header fade-in">
+        <h2>Kenapa Website Ini Dibuat?</h2>
+      </div>
+      <div class="purpose-content fade-in"
+        style="max-width: 800px; margin: 0 auto; text-align: center; font-size: 1.1rem; line-height: 1.8; color: var(--green-dark);">
+        <p>Website ini secara khusus berfungsi sebagai <strong>pusat informasi dan branding resmi Insuvit Teh
+            Herbal</strong>, bukan sebagai tempat checkout atau transaksi langsung. Seluruh proses pembelian tetap
+          diarahkan secara terpusat ke marketplace resmi kami seperti <strong>Shopee</strong> agar konsumen merasa lebih
+          terjamin, aman, dan nyaman dalam bertransaksi.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="about section-padding" id="tentang">
+    <div class="container">
+      <div class="section-header fade-in">
+        <h2>Tentang Insuvit</h2>
+        <p>Sehat Tanpa Obat Kimia</p>
+      </div>
+      <div class="about-content fade-in"
+        style="max-width: 800px; margin: 0 auto 60px; text-align: center; font-size: 1.1rem; line-height: 1.8; color: var(--text-main);">
+        <p>Insuvit Teh Herbal adalah UMKM yang memproduksi minuman teh herbal berbahan tumbuhan alami. Kami hadir
+          sebagai pendukung gaya hidup sehat bagi konsumen yang peduli pada kebugaran tubuh dan keseimbangan metabolisme
+          harian.</p>
+        <p style="margin-top: 16px;">Berawal dari tingginya kesadaran masyarakat akan pentingnya hidup sehat, Insuvit
+          diformulasikan sebagai pilihan herbal yang praktis diseduh. Kami berkomitmen menyediakan alternatif minuman
+          alami yang aman dikonsumsi dengan mempertahankan kearifan lokal melalui pemrosesan yang terstandar.</p>
+        <p style="margin-top: 16px; font-weight: 600; color: var(--green-dark);">Website ini dibuat sebagai pusat
+          informasi resmi Insuvit Teh Herbal. Pembelian tetap diarahkan ke marketplace resmi seperti Shopee agar
+          konsumen merasa lebih aman dalam bertransaksi.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="timeline section-padding" id="perjalanan">
+    <div class="container">
+      <div class="section-header fade-in">
+        <h2>Perjalanan Digital Insuvit</h2>
+        <p>Langkah UMKM kami dalam menjangkau masyarakat luas</p>
+      </div>
+      <div class="timeline-container fade-in">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>2022</h3>
+            <p>Mulai pemasaran melalui Facebook Ads Manager dan Instagram.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>2023</h3>
+            <p>Mulai masuk Shopee dan TikTok.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Saat Ini</h3>
+            <p>Mengembangkan website branding sebagai pusat informasi resmi UMKM.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="values section-padding" id="keunggulan">
+    <div class="container">
+      <div class="section-header fade-in">
+        <h2>Keunggulan UMKM</h2>
+        <p>Nilai utama yang membedakan Insuvit</p>
+      </div>
+      <div class="values-grid">
+        <div class="value-card fade-in">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"></path>
+            </svg></div>
+          <h4>Alami & Aman</h4>
+          <p>Insuvit mengutamakan bahan tumbuhan alami dan informasi legalitas dapat ditampilkan sesuai data resmi dari owner.</p>
+        </div>
+        <div class="value-card fade-in">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+            </svg></div>
+          <h4>Khas & Berkhasiat</h4>
+          <p>Diformulasikan khusus untuk mendukung keseimbangan metabolisme, memadukan pengetahuan tradisional dan
+            pemrosesan yang terstandar.</p>
+        </div>
+        <div class="value-card fade-in">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"></circle>
+              <polyline points="12 6 12 12 16 14"></polyline>
+            </svg></div>
+          <h4>Praktis & Terjangkau</h4>
+          <p>Kemasan teh celup gampang dipakai kapan saja, harganya terjangkau agar bisa dinikmati banyak orang.</p>
+        </div>
+        <div class="value-card fade-in">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path
+                d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z">
+              </path>
+            </svg></div>
+          <h4>Peduli Kesehatan</h4>
+          <p>Insuvit hadir sebagai pilihan teh herbal praktis untuk mendukung kebiasaan hidup sehat. Informasi manfaat produk dapat disesuaikan dengan data resmi dari owner.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="products section-padding" id="produk">
+    <div class="container">
+      <div class="section-header fade-in">
+        <h2>Katalog Produk Insuvit</h2>
+        <p>Varian minuman teh herbal dari Insuvit</p>
+      </div>
+
+      <div class="products-grid">
+        <div class="product-card fade-in">
+          <div class="product-image">
+            <div class="ribbon-bestseller">Terlaris</div>
+            <img src="images/product-1.png" alt="Insuvit Teh Herbal">
+            <span class="shopee-badge">Tersedia di Shopee</span>
+          </div>
+          <div class="product-info">
+            <h3>Insuvit Teh Herbal</h3>
+            <p>Minuman herbal alami yang mendukung kebugaran tubuh Anda.</p>
+            <a href="https://shopee.co.id/insuvit_official" target="_blank" class="btn btn-shopee">Lihat di Shopee</a>
+          </div>
+        </div>
+        <div class="product-card fade-in">
+          <div class="product-image"><img src="images/product-2.png" alt="Insuvit Teh Celup Herbal"><span
+              class="shopee-badge">Tersedia di Shopee</span></div>
+          <div class="product-info">
+            <h3>Insuvit Teh Celup Herbal</h3>
+            <p>Format celup praktis yang mudah diseduh di sela aktivitas.</p>
+            <a href="https://shopee.co.id/insuvit_official" target="_blank" class="btn btn-shopee">Lihat di Shopee</a>
+          </div>
+        </div>
+        <div class="product-card fade-in">
+          <div class="product-image"><img src="images/product-3.png" alt="Paket Hemat Insuvit"><span
+              class="shopee-badge">Tersedia di Shopee</span></div>
+          <div class="product-info">
+            <h3>Paket Hemat Insuvit</h3>
+            <p>Paket bundling untuk persediaan konsumsi harian Anda.</p>
+            <a href="https://shopee.co.id/insuvit_official" target="_blank" class="btn btn-shopee">Lihat di Shopee</a>
+          </div>
+        </div>
+        <div class="product-card fade-in">
+          <div class="product-image"><img src="images/product-4.png" alt="Varian Herbal Insuvit"><span
+              class="shopee-badge">Tersedia di Shopee</span></div>
+          <div class="product-info">
+            <h3>Varian Herbal Insuvit</h3>
+            <p>Pilihan alternatif racikan tumbuhan alami untuk keseharian.</p>
+            <a href="https://shopee.co.id/insuvit_official" target="_blank" class="btn btn-shopee">Lihat di Shopee</a>
+          </div>
+        </div>
+      </div>
+
+      <p class="product-note fade-in">Catatan: Informasi produk dan harga dapat disesuaikan berdasarkan toko resmi
+        Insuvit.</p>
+    </div>
+  </section>
+
+  <section class="testimonials section-padding" id="testimoni">
+    <div class="container">
+      <div class="section-header fade-in">
+        <h2>Apa Kata Konsumen?</h2>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card fade-in">
+          <blockquote>"Informasi produk lebih mudah dipahami."</blockquote>
+          <div class="reviewer">
+            <div class="avatar">U</div>
+            <div class="reviewer-info"><span class="name">Ulasan Konsumen</span><span class="role">Pembeli di
+                Marketplace</span></div>
+          </div>
+        </div>
+        <div class="testimonial-card fade-in">
+          <blockquote>"Pembelian terasa lebih aman karena diarahkan ke toko resmi."</blockquote>
+          <div class="reviewer">
+            <div class="avatar">U</div>
+            <div class="reviewer-info"><span class="name">Ulasan Konsumen</span><span class="role">Pembeli di
+                Marketplace</span></div>
+          </div>
+        </div>
+        <div class="testimonial-card fade-in">
+          <blockquote>"Tampilan website membantu mengenal brand Insuvit."</blockquote>
+          <div class="reviewer">
+            <div class="avatar">U</div>
+            <div class="reviewer-info"><span class="name">Ulasan Konsumen</span><span class="role">Pembeli di
+                Marketplace</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-note fade-in">
+        <p>Catatan: Testimoni asli dapat disesuaikan berdasarkan ulasan pembeli dari marketplace resmi Insuvit.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="legality section-padding" id="legalitas">
+    <div class="container">
+      <div class="section-header fade-in">
+        <h2>Legalitas dan Keamanan</h2>
+      </div>
+      <div class="legality-grid fade-in">
+        <div class="legality-card">
+          <svg viewBox="0 0 24 24" fill="none" stroke="var(--green-main)" stroke-width="2">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+          </svg>
+          <h3>Legalitas Produk</h3>
+          <p>Informasi P-IRT, halal, atau izin resmi akan ditampilkan sesuai data resmi dari owner.</p>
+        </div>
+        <div class="legality-card">
+          <svg viewBox="0 0 24 24" fill="none" stroke="var(--green-main)" stroke-width="2">
+            <path
+              d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z">
+            </path>
+          </svg>
+          <h3>Keamanan Konsumsi</h3>
+          <p>Konsumen disarankan membaca informasi produk dan mengikuti petunjuk konsumsi.</p>
+        </div>
+        <div class="legality-card">
+          <svg viewBox="0 0 24 24" fill="none" stroke="var(--orange-shopee)" stroke-width="2">
+            <circle cx="12" cy="12" r="10"></circle>
+            <line x1="12" y1="8" x2="12" y2="12"></line>
+            <line x1="12" y1="16" x2="12.01" y2="16"></line>
+          </svg>
+          <h3>Catatan Kesehatan</h3>
+          <p>Produk herbal bukan pengganti obat atau konsultasi medis.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="faq section-padding" id="faq">
+    <div class="container">
+      <div class="section-header fade-in">
+        <h2>Tanya Jawab Seputar Insuvit</h2>
+      </div>
+      <div class="faq-list fade-in">
+        <div class="faq-item">
+          <button class="faq-question">Apa itu Insuvit Teh Herbal?<svg viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg></button>
+          <div class="faq-answer">
+            <p>Insuvit adalah minuman teh herbal dari racikan tumbuhan alami yang diformulasikan khusus untuk mendukung
+              gaya hidup sehat dan menjaga kebugaran metabolisme tubuh.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Siapa saja yang boleh mengonsumsi Insuvit?<svg viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg></button>
+          <div class="faq-answer">
+            <p>Produk ini ditujukan bagi masyarakat umum yang peduli pada kesehatan, khususnya bagi mereka yang ingin
+              mendukung keseimbangan metabolisme dan memelihara kebugaran secara alami.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Apakah produk Insuvit aman dan legal?<svg viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg></button>
+          <div class="faq-answer">
+            <p>Insuvit mengutamakan bahan tumbuhan alami. Informasi legalitas dapat ditampilkan sesuai data resmi dari owner.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Apakah saya bisa membeli langsung di website ini?<svg viewBox="0 0 24 24"
+              fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg></button>
+          <div class="faq-answer">
+            <p>Tidak. Untuk keamanan transaksi dan menghindari kendala pengiriman, seluruh proses pembelian kami arahkan
+              langsung ke toko resmi kami di marketplace (terutama Shopee).</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Di mana saja saya bisa membeli produk Insuvit?<svg viewBox="0 0 24 24"
+              fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg></button>
+          <div class="faq-answer">
+            <p>Anda bisa menemukan kami di Shopee (paling direkomendasikan), Tokopedia, TikTok, serta pemesanan melalui
+              WhatsApp dan Instagram resmi kami.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Apakah teh herbal ini bisa menggantikan obat medis?<svg viewBox="0 0 24 24"
+              fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg></button>
+          <div class="faq-answer">
+            <p>Tidak. Insuvit Teh Herbal bukan pengganti obat atau konsultasi medis. Produk ini diposisikan sebagai minuman herbal untuk mendukung gaya hidup sehat. Konsumen dengan kondisi kesehatan tertentu disarankan berkonsultasi dengan tenaga kesehatan.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact section-padding" id="kontak">
+    <div class="container">
+      <div class="section-header fade-in">
+        <h2>Kenali Brand-nya, Beli melalui Toko Resminya</h2>
+      </div>
+      <p class="contact-desc fade-in">Website ini berfungsi sebagai media informasi dan branding resmi Insuvit. Untuk
+        transaksi pembelian, konsumen dapat diarahkan ke toko resmi Insuvit di marketplace.</p>
+      <div class="contact-buttons fade-in">
+        <a href="https://shopee.co.id/insuvit_official" target="_blank" class="contact-btn shopee-btn">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M1.6 4.8h2.1l1.7 8.2c.2.9 1 1.5 1.9 1.5h7.7c.9 0 1.6-.6 1.8-1.4l1.4-5.6H5.7m12.5 9.6a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4M7.4 17a1.2 1.2 0 110 2.4A1.2 1.2 0 017.4 17M12 0C8.7 0 6.2 1.6 6.2 3.6c0 .5.2 1 .5 1.4H5.3C4 5 3 6.2 3.2 7.5l1.1 6.7c.2 1.3 1.4 2.3 2.7 2.3h10c1.3 0 2.5-1 2.7-2.3l1.1-6.7c.2-1.3-.8-2.5-2.1-2.5h-1.4c.3-.4.5-.9.5-1.4C17.8 1.6 15.3 0 12 0zm0 1.4c2.3 0 4.2 1 4.2 2.2S14.3 5.8 12 5.8 7.8 4.8 7.8 3.6 9.7 1.4 12 1.4z" />
+          </svg> Beli di Shopee
+        </a>
+        <a href="#" class="contact-btn">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+          </svg> WhatsApp
+        </a>
+        <a href="#" class="contact-btn">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
+          </svg> Instagram
+        </a>
+        <a href="#" class="contact-btn">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z" />
+          </svg> TikTok
+        </a>
+        <a href="#" class="contact-btn">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M2.72 0a.58.58 0 00-.56.43L.02 7.22a4.09 4.09 0 00-.02.4 3.2 3.2 0 003.2 3.2A3.2 3.2 0 006.4 7.62a3.2 3.2 0 003.2 3.2 3.2 3.2 0 003.2-3.2 3.2 3.2 0 003.2 3.2 3.2 3.2 0 003.2-3.2 3.2 3.2 0 003.2 3.2A3.2 3.2 0 0024 7.62c0-.13 0-.27-.02-.4L21.84.43A.58.58 0 0021.28 0H2.72zM1 12.2v10.23A1.58 1.58 0 002.58 24h18.84A1.58 1.58 0 0023 22.42V12.2a4.72 4.72 0 01-2.6.78 4.8 4.8 0 01-3.6-1.62 4.8 4.8 0 01-3.6 1.62 4.8 4.8 0 01-3.6-1.62 4.8 4.8 0 01-3.6 1.62c-.93 0-1.8-.28-2.6-.78zm8.5 2.8h5a.75.75 0 01.75.75v4.5a.75.75 0 01-.75.75h-5a.75.75 0 01-.75-.75v-4.5a.75.75 0 01.75-.75z" />
+          </svg> Tokopedia
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3>Insuvit Teh Herbal</h3>
+          <p>Usaha mikro yang memproduksi minuman teh herbal berbahannya tumbuhan alami, diformulasikan khusus untuk
+            mendukung gaya hidup sehat dan keseimbangan metabolisme tubuh.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Navigasi</h4>
+          <a href="#beranda">Beranda</a>
+          <a href="#tentang">Tentang Insuvit</a>
+          <a href="#produk">Katalog Produk</a>
+          <a href="#faq">FAQ</a>
+        </div>
+        <div class="footer-col">
+          <h4>Marketplace</h4>
+          <a href="https://shopee.co.id/insuvit_official" target="_blank">Shopee (@insuvit_official)</a>
+          <a href="#">Tokopedia</a>
+          <a href="#">TikTok Shop</a>
+        </div>
+        <div class="footer-col">
+          <h4>Kontak</h4>
+          <a href="#">WhatsApp Admin</a>
+          <a href="#">Instagram</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Insuvit Teh Herbal. Semua hak cipta dilindungi.</p>
+        <p class="academic-note">Website ini merupakan prototype branding UMKM untuk kebutuhan akademik ganes.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp Button -->
+  <a href="#" class="floating-wa" aria-label="Chat WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor">
+      <path
+        d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+    </svg>
+  </a>
+
+  <button class="back-to-top" id="back-to-top-btn" aria-label="Kembali ke atas">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
