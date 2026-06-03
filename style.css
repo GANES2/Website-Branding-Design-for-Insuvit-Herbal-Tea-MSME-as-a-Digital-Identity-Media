@@ -209,7 +209,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu {
   display: flex;
   align-items: center;
-  gap: 28px;
+  gap: 18px;
 }
 
 .nav-menu > a {
@@ -557,6 +557,38 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 auto;
 }
 
+.purpose-points {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-top: 28px;
+  text-align: left;
+}
+
+.purpose-points div {
+  background-color: var(--white);
+  border: 1px solid rgba(47, 107, 79, 0.12);
+  border-radius: var(--radius-md);
+  padding: 20px;
+  box-shadow: var(--shadow-sm);
+}
+
+.purpose-points strong,
+.purpose-points span {
+  display: block;
+}
+
+.purpose-points strong {
+  color: var(--green-dark);
+  margin-bottom: 8px;
+}
+
+.purpose-points span {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+
 /* Timeline */
 .timeline {
   background-color: var(--white);
@@ -804,8 +836,28 @@ h1, h2, h3, h4, h5, h6 {
 .product-card p {
   font-size: 0.95rem;
   color: var(--text-secondary);
-  margin-bottom: 24px;
+  margin-bottom: 18px;
   flex-grow: 1;
+}
+
+.product-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.product-meta span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 30px;
+  padding: 5px 10px;
+  border-radius: var(--radius-sm);
+  background-color: var(--green-light);
+  color: var(--green-dark);
+  font-size: 0.82rem;
+  font-weight: 800;
+  line-height: 1.2;
 }
 
 .product-card .btn {
@@ -1142,6 +1194,13 @@ h1, h2, h3, h4, h5, h6 {
   gap: 20px;
 }
 
+.contact-note {
+  max-width: 680px;
+  margin: 28px auto 0;
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+}
+
 .contact-btn {
   display: inline-flex;
   align-items: center;
@@ -1267,6 +1326,13 @@ h1, h2, h3, h4, h5, h6 {
   transition: var(--transition);
 }
 
+.footer-col span {
+  display: block;
+  font-size: 1rem;
+  color: rgba(237, 247, 241, 0.62);
+  padding: 6px 0;
+}
+
 .footer-col a:hover {
   color: var(--white);
   transform: translateX(4px);
@@ -1384,6 +1450,9 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 600px;
     margin: 0 auto;
   }
+  .purpose-points {
+    grid-template-columns: 1fr;
+  }
   .problems-grid,
   .values-grid,
   .testimonials-grid,
@@ -1455,6 +1524,9 @@ h1, h2, h3, h4, h5, h6 {
   .section-padding {
     padding: 80px 0;
   }
+  .hero {
+    padding: 132px 0 90px;
+  }
   .hero h1 {
     font-size: 2.5rem;
   }
@@ -1503,14 +1575,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
   }
   .floating-wa {
-    bottom: 24px;
-    left: 24px;
-    width: 52px;
-    height: 52px;
-  }
-  .floating-wa svg {
-    width: 28px;
-    height: 28px;
+    display: none;
   }
   .back-to-top {
     bottom: 24px;
